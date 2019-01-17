@@ -38,7 +38,7 @@ public class SakilaFilmListModel implements Serializable {
 	
 	public SakilaFilmListModel() {}
 	
-	public SakilaFilmListModel(Long film_id, String title, @NotBlank String description, Integer category,
+	public SakilaFilmListModel(Long film_id, String title, @NotBlank String description, String category,
 			Integer price, Integer length, String rating, String actors) {
 		super();
 		this.film_id = film_id;
