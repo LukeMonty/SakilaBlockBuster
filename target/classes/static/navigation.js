@@ -25,8 +25,27 @@ a4.appendChild(actorNode);
 a4.href = "";       //TODO hyperlinks
 node4.appendChild(a4);
 
+let div = document.createElement("div");
+div.setAttribute("class", "search-container");
+
+
+let node5 = document.createElement("input");
+node5.setAttribute("type","text");
+node5.setAttribute("id","search");
+
+let node6 = document.createElement("button");
+let t = document.createElement("i");
+t.setAttribute("class","fa fa-search");
+node6.appendChild(t);
+node6.setAttribute("id","searchButton");
+node6.setAttribute("onclick", "search()");
+div.appendChild(node5);
+div.appendChild(node6);
+
+
 navBar.appendChild(node1);
 navBar.appendChild(node2);
 navBar.appendChild(node3);
 navBar.appendChild(node4);
+navBar.appendChild(div);
 document.getElementById("navigation").appendChild(navBar);

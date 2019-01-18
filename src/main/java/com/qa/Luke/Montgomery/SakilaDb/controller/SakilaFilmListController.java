@@ -33,5 +33,9 @@ public class SakilaFilmListController {
 	public SakilaFilmListModel getByActors(@PathVariable(value = "actors") String actors) {
 		return myRepository.findByTitle(actors);
 	}
+	@GetMapping("/filmList/{category}")
+	public List<SakilaFilmListModel> getByCategory(@PathVariable(value = "category") String category){
+		return myRepository.findByCategory(category);
+	}
 
 }

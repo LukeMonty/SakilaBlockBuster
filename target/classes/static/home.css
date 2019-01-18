@@ -1,0 +1,30 @@
+
+.banner img {
+    opacity: 60%;
+    padding-top: 52px;
+    width: 100%;
+    object-fit: cover;  
+    height: 500px;
+    size: auto;
+    display: block;
+    position: static;
+    
+}
+
+.bannerText {
+    height: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    position: absolute;
+    
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    -webkit-text-stroke: 1px dimgrey;
+}
+.card {
+    padding-left: 20px;
+    padding-right: 20px;
+}

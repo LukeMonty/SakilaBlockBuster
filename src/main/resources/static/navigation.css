@@ -1,0 +1,76 @@
+.navigation {
+	color: white;
+	position: absolute;
+	width: 100%;
+  
+}
+.navigation ul {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #343a40!important;
+}
+.navigation li {
+	padding: 14px 14px;
+	display: inline-block;
+	text-align: center;
+ 	
+}
+.navigation li a {
+  color: white;
+	display: block;	
+	margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #343a40!important;
+}
+.navigation li a:hover {
+  background-color: #111111;
+}
+.navigation .search-container {
+  float: right;
+}
+
+.navigation input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.navigation .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+  .navigation a{
+    align-self: center;
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;;
+  }
+  .navigation .search-container {
+    align-self: center;
+    float: none;
+  }
+  .navigation .search-container button {
+    align-self: center;
+    float: none;
+    width: 100%;
+  }
+  .navigation input[type=text] {
+    border: 1px solid #ccc;
+    width: 100%;
+    align-self: center;
+  }
+}
