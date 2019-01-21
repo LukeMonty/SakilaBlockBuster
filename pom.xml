@@ -16,6 +16,8 @@
   <url>http://maven.apache.org</url>
   
   <properties>
+    <start-class>com.qa.Luke.Montgomery.SakilaDb.SakilaDb</start-class>
+
     <java.version>1.8</java.version>
   </properties>
   
@@ -44,6 +46,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+			
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
 		</dependency>
 	</dependencies>
 

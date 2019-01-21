@@ -3,7 +3,7 @@
 ////////////////// Sorry about of this code
 
 function search() {
-    let requestURL = "http://127.0.0.1:8080/api/filmList";
+    let requestURL = "http://192.168.1.102:9000/api/filmList";
     let request = new XMLHttpRequest();
     request.open("GET", requestURL);
     request.responseType = "json";
